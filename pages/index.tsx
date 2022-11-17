@@ -22,36 +22,36 @@ export default function Home() {
         <Image src={foto} alt='foto' className='hidden lg:block' />
         <Image src={fotoM} alt='foto' className='lg:hidden w-full' />
         <div className='mx-8 flex flex-col justify-center items-center lg:items-start'>
-          <Image src={boleta} alt='foto' className='w-20 lg:w-28 mb-6 mt-8 lg:mt-0' />
-          <h1 className={'font-bold text-4xl lg:text-6xl line-after color-primary font-gbold'}>¡GRACIAS!</h1>
-          <p className='text-base lg:text-2xl mt-6 leading-7 lg:leading-10 font-gbook text-center lg:text-left'>Ya estás suscrito. Desde el próximo periodo de facturación comenzarás a recibir tu boleta/factura a través de tu correo electrónico.</p>
+          <Image src={boleta} alt='foto' className='w-16 lg:w-28 mb-4 lg:mb-6 mt-8 lg:mt-0' />
+          <h1 className={'font-bold text-2xl lg:text-6xl line-after color-primary font-gbold'}>¡GRACIAS!</h1>
+          <p className='text-sm lg:text-2xl mt-6 leading-7 lg:leading-10 font-gbook text-center lg:text-left'>Ya estás suscrito. Desde el próximo periodo de facturación comenzarás a recibir tu boleta/factura a través de tu correo electrónico.</p>
         </div>
       </main>
 
-      <footer className='lg:flex justify-between items-end px-16 pb-8'>
+      <footer className='lg:flex justify-between items-end px-8 lg:px-16 lg:pb-8'>
         <Image src={logo} alt='logo Survías' className='lg:hidden w-36 mx-auto mt-10 mb-6' />
-        <ul className='flex flex-col lg:flex-row font-bold font-gbold'>
+        <ul className='grid grid-cols-2 lg:flex lg:flex-row font-bold font-gbold text-xs lg:text-base'>
           <li>
             <a href="https://www.survias.cl" className='flex items-center mr-12 mb-4 lg:mb-0'>
-              <Image src={iconoWeb} alt='ícono' className='w-8 mr-2' />
+              <Image src={iconoWeb} alt='ícono' className='w-6 lg:w-8 mr-2' />
               survias.cl
             </a>
           </li>
           <li>
             <a href="https://twitter.com/Ruta5Survias" className='flex items-center mr-12 mb-4 lg:mb-0'>
-            <Image src={iconoTwitter} alt='ícono' className='w-8 mr-2' />
+            <Image src={iconoTwitter} alt='ícono' className='w-6 lg:w-8 mr-2' />
             @Ruta5Survias
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/survias_/" className='flex items-center mr-12 mb-4 lg:mb-0'>
-              <Image src={iconoInsta} alt='ícono' className='w-8 mr-2' />
+              <Image src={iconoInsta} alt='ícono' className='w-6 lg:w-8 mr-2' />
               @survias_
             </a>
           </li>
           <li>
             <a href="tel:6002526000" className='flex items-center'>
-              <Image src={iconoTel} alt='ícono' className='w-8 mr-2' />
+              <Image src={iconoTel} alt='ícono' className='w-6 lg:w-8 mr-2' />
               600 252 6000
             </a>
           </li>
