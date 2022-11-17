@@ -1,0 +1,45 @@
+$primary: #ff4438;
+
+.fondo {
+  border-bottom: 16px solid $primary;
+  @media (min-width: 1024px) {
+    background-image: url('../public/Desktop/Fondo-Landing-Aprobada-Survias.jpg');
+    background-size: cover;
+  }
+}
+
+.color-primary {
+  color: $primary;
+}
+
+.line-after::after {
+  content: '';
+  display: block;
+  width: 1.75rem;
+  height: 6px;
+  background-color: $primary;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 1024px) {
+    margin-left: 0;
+  }
+}
+
+.font-gbook {
+	font-family: 'GothamBook';
+}
+
+.font-gbold {
+	font-family: 'GothamBold';
+}
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/Gotham Book.otf');
+}
+
+@font-face {
+	font-family: 'GothamBold';
+	src: url('../fonts/Gotham-Bold.ttf');
+}
