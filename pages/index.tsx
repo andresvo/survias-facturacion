@@ -29,7 +29,7 @@ export default function Home() {
       </main>
 
       <footer className='lg:flex justify-between items-end px-8 lg:px-16 lg:pb-8'>
-        <Image src={logo} alt='logo Survías' className='lg:hidden w-32 mx-auto lg:mt-10 mb-6' />
+        <Image src={logo} alt='logo Survías' className='lg:hidden w-32 mx-auto mt-4 lg:mt-10 mb-6' />
         <ul className='grid grid-cols-2 lg:flex lg:flex-row font-bold font-gbold text-xs lg:text-base'>
           <li>
             <a href="https://www.survias.cl" className='flex items-center mr-12 mb-2 lg:mb-0'>

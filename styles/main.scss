@@ -1,7 +1,7 @@
 $primary: #ff4438;
 
 .fondo {
-  height: 100vh;
+  min-height: 100vh;
   border-bottom: 16px solid $primary;
   @media (min-width: 1024px) {
     background-image: url('../public/Desktop/Fondo-Landing-Aprobada-Survias.jpg');
